@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - Loja de Tênis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Loja de Tênis</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="loja.html">Início</a></li>
+                    <li><a href="products.html">Tênis</a></li>
+                    <li><a href="promotions.html">Promoções</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li><a href="about.html">Sobre Nós</a></li>
+                    <li><a href="terms.html">Termos e Condições</a></li>
+                    <li><a href="cart.html">Carrinho</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Buscar produtos...">
+                <button>Buscar</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="cart" class="cart">
+        <div class="container">
+            <h2>Seu Carrinho</h2>
+
+            <div class="cart-items">
+                <!-- Exemplo de item no carrinho -->
+                <div class="cart-item">
+                    <img src="https://static.netshoes.com.br/produtos/tenis-lacoste-t-clip-masculino/06/D66-6617-006/D66-6617-006_zoom2.jpg?ts=1621274884" alt="Tênis Lacoste T-Clip Masculino">
+                    <div class="item-info">
+                        <h3>Tênis Lacoste T-Clip Masculino</h3>
+                        <p>Quantidade: <input type="number" value="1" min="1"></p>
+                        <p>Preço Unitário: R$ 349,99</p>
+                        <p>Total: R$ 349,99</p>
+                        <button>Remover</button>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="https://static.netshoes.com.br/produtos/tenis-reebok-princess-feminino/14/D19-1218-014/D19-1218-014_zoom1.jpg?ts=1595567822&" alt="Tênis Reebok Princess Feminino">
+                    <div class="item-info">
+                        <h3>Tênis Reebok Princess Feminino</h3>
+                        <p>Quantidade: <input type="number" value="1" min="1"></p>
+                        <p>Preço Unitário: R$ 279,99</p>
+                        <p>Total: R$ 279,99</p>
+                        <button>Remover</button>
+                    </div>
+                </div>
+
+                <!-- Adicione mais itens aqui -->
+
+            </div>
+
+            <div class="cart-summary">
+                <h3>Resumo do Carrinho</h3>
+                <p>Subtotal: R$ 629,98</p>
+                <p>Frete Estimado: R$ 20,00</p>
+                <p><strong>Total: R$ 649,98</strong></p>
+                <button class="btn-primary">Finalizar Compra</button>
+                <a href="products.html" class="btn-secondary">Continuar Comprando</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <h3>Loja de Tênis</h3>
+                <p>&copy; 2024 Loja de Tênis. Todos os direitos reservados.</p>
+            </div>
+            <div class="footer-links">
+                <a href="loja.html">Início</a>
+                <a href="products.html">Tênis</a>
+                <a href="promotions.html">Promoções</a>
+                <a href="contact.html">Contato</a>
+                <a href="about.html">Sobre Nós</a>
+                <a href="terms.html">Termos e Condições</a>
+                <a href="cart.html">Carrinho</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Loja de Tênis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Loja de Tênis</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="loja.html">Início</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li><a href="about.html">Sobre Nós</a></li>
+                    <li><a href="terms.html">Termos e Condições</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Buscar produtos...">
+                <button>Buscar</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida ou sugestão? Entre em contato conosco preenchendo o formulário abaixo.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <h3>Loja de Tênis</h3>
+                <p>&copy; 2024 Loja de Tênis. Todos os direitos reservados.</p>
+            </div>
+            <div class="footer-links">
+                <a href="contact.html">Contato</a>
+                <a href="about.html">Sobre Nós</a>
+                <a href="terms.html">Termos e Condições</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
